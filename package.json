@@ -1,0 +1,23 @@
+{
+  "name": "vue-acceso-api",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "axios": "^1.2.1",
+    "beercss": "^2.3.0",
+    "vue": "^3.2.41",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "vite": "^3.2.3",
+    "vite-plugin-babel": "^1.1.2"
+  }
+}
