@@ -56,9 +56,9 @@
 		if (await tryResolve(() => getCategory(props.category), 2)) {
 			comidas.value = data.value.meals
 
-			setTimeout(async () => {
-				await tryResolve(() => getCategory('salad'), 2)
-			}, 1500)
+			// setTimeout(async () => {
+			// 	await tryResolve(() => getCategory('salad'), 2)
+			// }, 1500)
 		} else {
 			showError.value = true
 		}

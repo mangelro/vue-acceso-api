@@ -39,7 +39,7 @@ const routes = [
 				component: () => import('@/pages/RecetaPage.vue'),
 				props: router => {
 					return {
-						idMeal: Number.parseInt(router.params.i),
+						idMeal: router.params.i,
 					}
 				},
 			},

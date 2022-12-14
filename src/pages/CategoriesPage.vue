@@ -96,7 +96,7 @@
 
 	const search = async () => {
 		if (searchTerm.value !== '') {
-			router.push({ name: 'ingredient', params: { i: searchTerm.value } })
+			router.push({ name: 'recipe', params: { i: searchTerm.value } })
 		}
 	}
 </script>
